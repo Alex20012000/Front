@@ -1,0 +1,57 @@
+.button-container-back {
+  width: 100%;
+}
+
+.catalog-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.catalog-left {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.catalog-right {
+  display: block;
+  flex-direction: column;
+  width: 100%;
+}
+
+.catalog-left-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.catalog-left-nav {
+  list-style: none;
+  width: 100%;
+}
+
+.catalog-left-nav-item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.catalog-left-nav-item.active {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.catalog-book-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 5px;
+}

@@ -1,0 +1,56 @@
+.catalog_book {
+    display: inline-block;
+    width: 250px;
+    height: 600px;
+    background-color: #807f83;
+    padding: 10px;
+    margin: 5px;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    background: rgba(235, 236, 240, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(105, 105, 105, 0.3);
+}
+
+.thumbnail {
+    width: 170px;
+    height: 130px;
+    padding: 0 20px;
+    margin: 15px 30px;
+
+}
+
+.autor {
+    font-size: 14px;
+    padding: 5px;
+    height: 50px;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    height: 100px;
+}
+
+.category {
+    font-size: 16px;    
+    padding: 5px;
+    height: 50px;
+}
+
+.raiting {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.esteeme {
+    font-size: 16px;
+    /* font-weight: bold; */
+    padding: 5px;
+}
+.catalog_book_button_container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5px;
+}

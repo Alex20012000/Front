@@ -1,0 +1,15 @@
+/* Компонент загрузка */
+.loader{
+    /* background: rgb(201, 197, 206); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -webkit-fill-available;
+    margin-top: 30vh; 
+    
+    }
+    
+    .img_loader{
+    width: 120px;
+    height: 120px;
+    }
